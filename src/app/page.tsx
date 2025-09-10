@@ -1,3 +1,4 @@
+import Footer from '@/components/footer';
 import Header from '@/components/header';
 import Cleaners from '@/features/cleaners/cleaners';
 import Hero from '@/features/hero';
@@ -10,6 +11,7 @@ export default function Home() {
         <Hero />
         <Cleaners />
       </main>
+      <Footer />
     </>
   );
 }
