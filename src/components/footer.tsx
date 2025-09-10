@@ -9,7 +9,7 @@ export default function Footer() {
           <h2 className="text-header text-2xl font-bold">Licking Clean</h2>
           <p className="mt-3 text-slate-text text-sm  max-w-xs">
             Trusted home cleaning services that bring comfort, care, and a sparkling touch to your
-            family's home.
+            family&apos;s home.
           </p>
         </div>
 
