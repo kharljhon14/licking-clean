@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <header className="bg-gray-50 border-b border-gray-200 flex items-center justify-between px-6 md:px-10 py-3 text-slate-text">
       <nav className="hidden md:block">
-        <ul className="flex gap-x-6 font-lato text-sm md:text-base">
+        <ul className="flex gap-x-6  text-sm md:text-base">
           <li>
             <Link href="/">Services</Link>
           </li>
@@ -62,7 +62,7 @@ export default function Header() {
               </SheetDescription>
             </SheetHeader>
 
-            <nav className=" p-6 flex flex-col gap-6 text-lg font-lato">
+            <nav className=" p-6 flex flex-col gap-6 text-lg ">
               <Link
                 href="/"
                 className="hover:text-header transition text-md"

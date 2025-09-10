@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 md:px-12 py-10 grid grid-cols-1 md:grid-cols-3 gap-10">
         <div>
           <h2 className="text-header text-2xl font-bold">Licking Clean</h2>
-          <p className="mt-3 text-slate-text text-sm font-lato max-w-xs">
+          <p className="mt-3 text-slate-text text-sm  max-w-xs">
             Trusted home cleaning services that bring comfort, care, and a sparkling touch to your
             family's home.
           </p>
@@ -15,7 +15,7 @@ export default function Footer() {
 
         <div>
           <h3 className="text-slate-text font-semibold mb-3">Quick Links</h3>
-          <ul className="space-y-2 text-sm font-lato">
+          <ul className="space-y-2 text-sm ">
             <li>
               <Link
                 href="/"
@@ -53,7 +53,7 @@ export default function Footer() {
 
         <div>
           <h3 className="text-slate-text font-semibold mb-3">Get Started</h3>
-          <p className="text-sm text-slate-text font-lato mb-4">
+          <p className="text-sm text-slate-text  mb-4">
             Ready for a sparkling clean home? Book your trusted cleaner today.
           </p>
           <Button size="lg">Book Now</Button>
@@ -61,7 +61,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-gray-200 mt-6">
-        <p className="text-center text-xs text-slate-text py-4 font-lato">
+        <p className="text-center text-xs text-slate-text py-4 ">
           © {new Date().getFullYear()} Licking Clean. All rights reserved.
         </p>
       </div>
